@@ -1,0 +1,56 @@
+hash: 5f9eb09838d1234ba1bf72bd51abaf7b625a88e36d94865af4f0a11e5c103cff
+updated: 2017-09-18T21:11:06.195920674-04:00
+imports:
+- name: github.com/blang/semver
+  version: 4a1e882c79dcf4ec00d2e29fac74b9c8938d5052
+- name: github.com/exercism/cli
+  version: c131bc973e6b1cea115a759d102bd5c0b6f90635
+  subpackages:
+  - api
+  - browser
+  - cli
+  - cmd
+  - config
+  - debug
+  - paths
+  - user
+- name: github.com/inconshreveable/go-update
+  version: 8152e7eb6ccf8679a64582a66b78519688d156ad
+  subpackages:
+  - internal/binarydist
+  - internal/osext
+- name: github.com/kardianos/osext
+  version: 29ae4ffbc9a6fe9fb2bc5029050ce6996ea1d3bc
+- name: github.com/stretchr/testify
+  version: f3960ab1f9664ecc4e27c78af27cc9063d745a43
+  subpackages:
+  - assert
+- name: github.com/urfave/cli
+  version: edb24d02aa3cea2319c33f2836d4a5133907fe4c
+- name: golang.org/x/net
+  version: 5d0a0f8cd486626821d2ba44d471ab1c9271d38f
+  subpackages:
+  - html
+  - html/atom
+  - html/charset
+- name: golang.org/x/text
+  version: cf4986612c83df6c55578ba198316d1684a9a287
+  subpackages:
+  - encoding
+  - encoding/charmap
+  - encoding/htmlindex
+  - encoding/ianaindex
+  - encoding/internal
+  - encoding/internal/identifier
+  - encoding/japanese
+  - encoding/korean
+  - encoding/simplifiedchinese
+  - encoding/traditionalchinese
+  - encoding/unicode
+  - internal/tag
+  - internal/utf8internal
+  - language
+  - language/display
+  - runes
+  - transform
+testImports: []
